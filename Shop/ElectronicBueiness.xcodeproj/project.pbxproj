@@ -97,6 +97,8 @@
 		20B51A4419BCB5FC000297D6 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B51A3219BCB5FC000297D6 /* UIImageView+HighlightedWebCache.m */; };
 		20B51A4519BCB5FC000297D6 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B51A3419BCB5FC000297D6 /* UIImageView+WebCache.m */; };
 		20B51A4619BCB5FC000297D6 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B51A3619BCB5FC000297D6 /* UIView+WebCacheOperation.m */; };
+		20C879521A3314C700C09F79 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C879501A3314C700C09F79 /* AdapterViewController.m */; };
+		20C879531A3314C700C09F79 /* AdapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C879511A3314C700C09F79 /* AdapterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -275,6 +277,9 @@
 		20B51A3419BCB5FC000297D6 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		20B51A3519BCB5FC000297D6 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		20B51A3619BCB5FC000297D6 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		20C8794F1A3314C700C09F79 /* AdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		20C879501A3314C700C09F79 /* AdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		20C879511A3314C700C09F79 /* AdapterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdapterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -576,6 +581,9 @@
 			children = (
 				20A40F8D19C2B78600D39505 /* Tool */,
 				20AD379319B5BC580014676A /* Category */,
+				20C8794F1A3314C700C09F79 /* AdapterViewController.h */,
+				20C879501A3314C700C09F79 /* AdapterViewController.m */,
+				20C879511A3314C700C09F79 /* AdapterViewController.xib */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -810,6 +818,7 @@
 				20A5AD9D19BFF8FC00D11403 /* nav_Background.png in Resources */,
 				20AED66D19BEB1290058954E /* MJRefresh.bundle in Resources */,
 				20AED68B19BEFE790058954E /* ShopViewController.xib in Resources */,
+				20C879531A3314C700C09F79 /* AdapterViewController.xib in Resources */,
 				209F12C019AC8D2800E72F76 /* TestViewController.xib in Resources */,
 				20B51A1319BCAF0E000297D6 /* TestTableViewCell.xib in Resources */,
 				20A5AD9719BFF25100D11403 /* navigationbar_background@2x.png in Resources */,
@@ -852,6 +861,7 @@
 				2036376F19ADA8E800C9D123 /* BaseCore.m in Sources */,
 				20B51A0E19BCAA50000297D6 /* BaseView.m in Sources */,
 				20B51A3E19BCB5FC000297D6 /* SDWebImageManager.m in Sources */,
+				20C879521A3314C700C09F79 /* AdapterViewController.m in Sources */,
 				20B51A4519BCB5FC000297D6 /* UIImageView+WebCache.m in Sources */,
 				20AD32C919AADB8900A37179 /* FMDatabase.m in Sources */,
 				20A5526019B0523700395104 /* TestManager.m in Sources */,
